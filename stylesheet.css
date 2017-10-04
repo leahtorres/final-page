@@ -3,85 +3,6 @@ img {
   width: 200px;
   background-image: center;
 }
-.pink {
-	background-color: #ff1493;
-    float: right;
-	margin: 10px;
-    width: 10vw;
-	height: 30vh;
-    padding: 10px;
-}
-.yellow {
-	background-color: #ffff00;
-	margin-right: 10px;
-    float: right;
-    margin: 10px;
-    width: 10vw;
-	height: 30vh;
-    padding: 10px;
-	margin-top: -15px;
-}
-.purple {
-background-color: #3633FF;
-margin-right: 10px;
-float: right;
-width: 10vw;
-height: 30vh;
-padding: 10px;
-margin-bottom: -50px;
-}
-.brown {
-background-color: #A12222; 
-margin-right: 10px;
-float: right;
-width: 10vw;
-height: 30vh;
-padding: 10px;
-}
-.orange {
-background-color: #FF6600;
-margin: 10px;
-width: 10vw;
-height: 30vh;
-padding: 10px;
-background-image: url();
-}
-.blue {
-background-color: #003399;
-margin: 10px;
-width: 10vw;
-height: 30vh;
-padding: 10px;
-}
-.red {
- background-color: #CC0000;
-margin: 10px;
-width: 10vw;
-height: 30vh;
-padding: 10px;
-}
-.green {
- background-color: #339900;
- margin: 10px;
-width: 10vw;
-height: 30vh;
-padding: 10px;
-margin-bottom: -50px;
-}
-.black {
-	background-color: #00ff00;
-	margin: 10px;
-	width: 30vw;
-	height: 30vh;
-	padding: 10px;
-	margin-center: 50px;
-}
-.grey {
-	background-color:#FFFF4C;
-	margin: 10px;
-	height: 30vh;
-	width: 10vw;
-}
 h1 {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
@@ -89,3 +10,104 @@ h1 {
 body {
 	background-color: #ffb6c1;
 }
+.pink {
+	background-color: #ff1493;
+   display: block;
+    width: 30vw;
+	height: 30vh;
+    padding: 10px;
+	margin: 10px;
+}
+.yellow {
+	background-color: #ffff00;
+	display: block;
+  width: 30vw;
+	height: 30vh;
+    padding: 10px;
+	margin: 10px;
+}
+.purple {
+background-color: #3633FF;
+display: block;
+  width: 30vw;
+ height: 30vh;
+padding: 10px;
+margin: 10px;
+}
+.brown {
+background-color: #A12222; 
+display: block;
+  width: 30vw;
+  height: 30vh;
+padding: 10px;
+margin: 10px;
+}
+.orange {
+background-color: #FF6600;
+display: block;
+  width: 30vw;
+	height: 30vh;
+padding: 10px;
+margin: 10px;
+}
+.blue {
+background-color: #003399;
+display: block;
+  width: 30vw;
+	height: 30vh;
+padding: 10px;
+margin: 10px;
+}
+.red {
+ background-color: #CC0000;
+ display: block;
+  width: 30vw;
+	height: 30vh;
+padding: 10px;
+margin: 10px;
+}
+.green {
+ background-color: #339900;
+ display: block;
+  width: 30vw;
+height: 30vh;
+padding: 10px;
+margin: 10px;
+}
+.container {
+	display: flex;
+}
+@media screen and (max-width: 700px) {
+	body {
+	display: block;
+	}
+	.green {
+		width: 15vw;
+		height: 15vh;
+	}
+	.purple {
+	width: 15vw;
+		height: 15vh;
+	}		
+	img {
+		height: 11vh;
+		width: 11vw;
+		
+	}
+	@media screen and(max-width: 500px) {
+		body {
+			display:block;
+		}
+		.orange {
+			width: 15vw;
+		height: 15vh;
+		display: flex;
+		}
+	.blue {
+		width: 15vw;
+		height: 15vh;
+		display:flex;
+	}
+
+
+
