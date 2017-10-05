@@ -93,22 +93,25 @@ margin: 10px;
 	body {
 		background-color: #cbdaf2;
 		}
-	}
-		
-	@media screen and(max-width: 500px) {
-		body {
-			display:block;
-		}
-		.orange {
-			width: 15vw;
-		height: 15vh;
-		display: flex;
+.orange {
+		width: 30vw;
+		height: 30vh;
+		display: block;
 		}
 	.blue {
 		width: 15vw;
 		height: 15vh;
-		display:flex;
+		display: block;
+		}
 	}
+		
+	@media screen and(max-width: 500px) {
+		body {
+			display:flex;
+	                float: top;
+		}
+	}
+		
 
 
 
