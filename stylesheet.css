@@ -92,14 +92,6 @@ margin: 10px;
 	body {
 	display: block;
 	}
-	.green {
-		width: 15vw;
-		height: 15vh;
-	}
-	.purple {
-	width: 15vw;
-		height: 15vh;
-	}
 @media (max-width:800px) {
   .green, .pink, .blue {
     width:50%;
