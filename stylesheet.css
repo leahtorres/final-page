@@ -116,6 +116,10 @@ margin: 10px;
 		
 		}
 	}
+	@media (max-width:800px) {
+  .green, .pink, .blue {
+    width:50%;/*The width is 100%, when the viewport is 800px or smaller*/
+  }
 		
 	
 		
