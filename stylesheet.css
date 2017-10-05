@@ -89,7 +89,7 @@ margin: 10px;
 	width: 15vw;
 		height: 15vh;
 	}		
-	@meida screen and (max-width: 700px) {
+	@media screen and (max-width: 700px) {
 	body {
 		background-color: #cbdaf2;
 		}
