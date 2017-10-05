@@ -12,7 +12,7 @@ body {
 }
 .pink {
 	background-color: #ff1493;
-	 background-image: url("raw12.PNG");
+	 background-image: url("raw12.Png");
    display: block;
     width: 30vw;
 	height: 35vh;
@@ -21,7 +21,7 @@ body {
 }
 .yellow {
 	background-color: #ffff00;
-	 background-image: url("Untitled-5.PNG");
+	 background-image: url("Untitled-5.Png");
 	display: block;
   width: 30vw;
 	height: 35vh;
@@ -108,17 +108,7 @@ margin: 10px;
 	body {
 		background-color: #cbdaf2;
 		}
-.orange {
-		width: 30vw;
-		height: 30vh;
-		display: block;
-		}
-	.blue {
-		width: 30vw;
-		height: 30vh;
-		display: block;
-		
-		}
+
 	}
 @media screen and (max-width: 400px) {		
 	display: inline-block;
