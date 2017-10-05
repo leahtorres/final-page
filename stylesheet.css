@@ -12,6 +12,7 @@ body {
 }
 .pink {
 	background-color: #ff1493;
+	 background-image: url("raw12.PNG");
    display: block;
     width: 30vw;
 	height: 35vh;
@@ -20,6 +21,7 @@ body {
 }
 .yellow {
 	background-color: #ffff00;
+	 background-image: url("Untitled-5.PNG");
 	display: block;
   width: 30vw;
 	height: 35vh;
@@ -28,6 +30,7 @@ body {
 }
 .purple {
 background-color: #3633FF;
+	 background-image: url("Untitled-4.png");
 display: block;
   width: 30vw;
  height: 35vh;
@@ -36,6 +39,7 @@ margin: 10px;
 }
 .brown {
 background-color: #A12222; 
+	 background-image: url("raw8.png");
 display: block;
   width: 30vw;
   height: 35vh;
@@ -44,6 +48,7 @@ margin: 10px;
 }
 .orange {
 background-color: #FF6600;
+	 background-image: url("raw9.png");
 display: block;
   width: 30vw;
 	height: 35vh;
@@ -52,6 +57,7 @@ margin: 10px;
 }
 .blue {
 background-color: #003399;
+	 background-image: url("Untitled-3.png");
 display: block;
   width: 30vw;
 	height: 35vh;
