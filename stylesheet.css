@@ -38,29 +38,29 @@ padding: 10px;
 margin: 10px;
 }
 .brown {
-background-color: #A12222; 
-	 background-image: url("raw8.png");
+background-color: #A12222;
+background-image: url("raw8.png");
 display: block;
-  width: 30vw;
-  height: 35vh;
+ width: 30vw;
+height: 35vh;
 padding: 10px;
 margin: 10px;
 }
 .orange {
 background-color: #FF6600;
-	 background-image: url("raw9.png");
+background-image: url("raw9.png");
 display: block;
-  width: 30vw;
-	height: 35vh;
+width: 30vw;
+height: 35vh;
 padding: 10px;
 margin: 10px;
 }
 .blue {
 background-color: #003399;
-	 background-image: url("Untitled-3.png");
+background-image: url("Untitled-3.png");
 display: block;
   width: 30vw;
-	height: 35vh;
+height: 35vh;
 padding: 10px;
 margin: 10px;
 }
@@ -68,14 +68,14 @@ margin: 10px;
  background-color: #CC0000;
  display: block;
   width: 30vw;
-	height: 35vh;
+height: 35vh;
 padding: 10px;
 margin: 10px;
 }
 .green {
  background-color: #339900;
  display: block;
-  width: 30vw;
+ width: 30vw;
 height: 35vh;
 padding: 10px;
 margin: 10px;
