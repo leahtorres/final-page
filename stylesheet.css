@@ -89,11 +89,12 @@ margin: 10px;
 	width: 15vw;
 		height: 15vh;
 	}		
-	img {
-		height: 11vh;
-		width: 11vw;
-		
+	@meida screen and (max-width: 700px) {
+	body {
+		background-color: #cbdaf2;
+		}
 	}
+		
 	@media screen and(max-width: 500px) {
 		body {
 			display:block;
