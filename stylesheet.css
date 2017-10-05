@@ -21,7 +21,7 @@ body {
 }
 .yellow {
 	background-color: #ffff00;
-	 background-image: url("Untitled-5.Png" width"20px" height"20px");
+	 background-image: url("Untitled-5.Png" width:"20px" height:"20px");
 	display: block;
   width: 30vw;
 	height: 35vh;
@@ -30,7 +30,7 @@ body {
 }
 .purple {
 background-color: #3633FF;
-	 background-image: url("Untitled-4.png" width"20px" height"20px");
+	 background-image: url("Untitled-4.png" width="20px" height="20px");
 display: block;
   width: 30vw;
  height: 35vh;
@@ -48,7 +48,7 @@ margin: 10px;
 }
 .orange {
 background-color: #FF6600;
-background-image: url("raw9.png" width"20px" height"20px");
+background-image: url("raw9.png");
 display: block;
 width: 30vw;
 height: 35vh;
@@ -57,7 +57,7 @@ margin: 10px;
 }
 .blue {
 background-color: #003399;
-background-image: url("Untitled-3.png" width"20px" height"20px");
+background-image: url("Untitled-3.png");
 display: block;
   width: 30vw;
 height: 35vh;
@@ -90,12 +90,14 @@ margin: 10px;
 }
 @media screen and (max-width: 700px) {
 	body {
-	background-color: ##e2fbff;
+	background-color: #e2fbff;
 	}
 	header {
 	background-color: #a9c17a;
 		padding: 0.99999999;
 		border: 1px solid #72c94c;
+	}
+}
 		
 @media (max-width: 500px) {
 	body {
