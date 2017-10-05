@@ -88,26 +88,24 @@ margin: 10px;
 .container {
 	display: flex;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 	body {
 	display: block;
 	}
-@media (max-width:800px) {
-  .green, .pink, .blue {
-    width:50%;
-  }
-	@media screen and (max-width: 700px) {
+@media (max-width:600px) {
 	body {
-		background-color: #cbdaf2;
+background-color: #cbdaf2;
+  }
+}
+	@media screen and (max-width: 450px) {
+	body {
+		body {
+	display: inline-block;
+	background-color: #fff98e;
 		}
 
 	}
-@media screen and (max-width: 400px) {
-	body {
-	display: inline-block;
-	background-color: #fff98e;
-	}
-	}
+
 	
 		
 
