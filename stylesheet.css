@@ -88,11 +88,11 @@ margin: 10px;
 .container {
 	display: flex;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	body {
-	display: block;
+	background-color: ##e2fbff;
 	}
-@media (max-width:600px) {
+@media (max-width:500px) {
 	body {
 background-color: #cbdaf2;
   }
@@ -100,7 +100,6 @@ background-color: #cbdaf2;
 	@media screen and (max-width: 450px) {
 	body {
 		body {
-	display: inline-block;
 	background-color: #fff98e;
 		}
 
